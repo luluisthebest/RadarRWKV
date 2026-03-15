@@ -17,7 +17,7 @@ The code implements the proposed algorithm and includes scripts for reproducing 
    ```python
    sh train.sh
    ```
-3. To evaluate a pretrained model, download the checkpoint from and run:
+3. To evaluate a pretrained model, download the checkpoint from [Google Drive](https://drive.google.com/file/d/113WHGf6JEjBV23Y1VOH2j41Oq31rBoX5/view?usp=drive_link) and run:
    ```python
    sh evaluate.sh
    ```
