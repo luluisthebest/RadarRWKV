@@ -1,0 +1,48 @@
+{
+    "voxel_size": [0.2, 0.2, 0.2],
+    "grid_range": [0, -40, -3, 50, 40, 4],
+    "grid_size": [250, 400, 35],
+    "dataset_path": "your/path/to/radelft/",
+    "range_cell_size": 0.1004,
+    "max_range": 51.4242,
+    "angle_fft_size": 256,
+    "ele_fft_size": 128,
+    "vel_bin_size": 0.04607058455831936,
+    "vel_fft_size": 128,
+    "vel_fold": [-6, -5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5],
+    "roi_spherical": [0, -70, -15, 50, 70, 15],
+    "x_offset": 0,
+    "y_offset": 0,
+    "azimuth_offset": 7,
+    "bev": false,
+    "label_folder": "radar_gt",
+    "quantile": false,
+    "train_val_scenes": [1,3,4,5,7],
+    "test_scenes": [2,6],
+    "train_test_split_percent": 0.8,
+    "output": {
+        "dir": "your/path/to/results"
+    },
+    "train": {
+        "batch_size": 1,
+        "num_workers": 1
+    },
+    "val": {
+        "batch_size": 1,
+        "num_workers": 1
+    },
+    "test": {
+            "batch_size": 1,
+            "num_workers": 1
+    },
+    "optimizer": {
+        "lr": 0.001
+    },
+    "lr_scheduler":{
+        "step_size": 10,
+        "gamma": 0.9
+    },
+    "name": "transrad",
+    "num_epochs": 30,
+    "seed": 42
+}
