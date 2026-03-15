@@ -4,7 +4,7 @@ The code implements the proposed algorithm and includes scripts for reproducing 
 
 ### Environments
 - Python 3.9
-- PyTorch 2.4.1+cu118
+- PyTorch 2.4.1+cu124
 - Use `pip install -r requirements.txt` to install dependencies.
 
 ### Datasets
