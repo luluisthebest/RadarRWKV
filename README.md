@@ -12,11 +12,12 @@ The code implements the proposed algorithm and includes scripts for reproducing 
 - 4D Radar [RADIaL](https://github.com/valeoai/RADIal)
 
 ### Train
-1. To train the model from scratch, run:
+1. Set "dataset_path" and "output" in `configs/RaDelft.json` to point to your local paths.
+2. To train the model from scratch, run:
    ```python
    sh train.sh
    ```
-2. To evaluate a pretrained model, download the checkpoint from and run:
+3. To evaluate a pretrained model, download the checkpoint from and run:
    ```python
    sh evaluate.sh
    ```
