@@ -8,8 +8,8 @@ The code implements the proposed algorithm and includes scripts for reproducing 
 - Use `pip install -r requirements.txt` to install dependencies.
 
 ### Datasets
-- 4D Radar [RaDelft](https://github.com/RaDelft/RaDelft-Dataset)
-- 4D Radar [RADIaL](https://github.com/valeoai/RADIal)
+- Public 4D Radar [RaDelft](https://github.com/RaDelft/RaDelft-Dataset)
+- Public 4D Radar [RADIaL](https://github.com/valeoai/RADIal)
 
 ### Train
 1. Set "dataset_path" and "output" in `configs/RaDelft.json` to point to your local paths.
