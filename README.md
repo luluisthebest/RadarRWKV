@@ -16,7 +16,7 @@ The code implements the proposed algorithm and includes scripts for reproducing 
    ```python
    sh train.sh
    ```
-2. To evaluate a pretrained model, download the checkpoint from [anonymous link] and run:
+2. To evaluate a pretrained model, download the checkpoint from and run:
    ```python
-  sh evaluate.sh
-  ```
+   sh evaluate.sh
+   ```
